@@ -11,6 +11,7 @@
 -O App ainda possui **Tema Escuro**
 
 -Na tela de cadastro de clientes, os campos possuem condições e mascaras para que quando o usuário digitar, se estiver sendo formatado.
+
 -Na última etapa de cadastro ao terminar os dados já são enviados para a lista global antes de monstrar a tela de conlcusão
 
 -O stepper foi feito com Material UI
