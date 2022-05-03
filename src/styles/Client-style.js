@@ -23,15 +23,13 @@ export const Client=styled('section',{
 export const Box=styled('div',{
     display: 'flex',
     position:'fixed',
-    padding: '20px 10px',
     boxShadow:'0px 0px 10px #00000080',
-    justifyContent:'center',
-    alignItems: 'center',
     flexDirection: 'column',
     borderRadius:5,
-    height: '90%',
-    overflow: "scroll",
-    margin:'50px 0 10px 0',
+    height: '70%',
+    padding:'10px 10px' ,
+    overflowY: "scroll",
+    margin:'80px 0 00px 0',
     variants:{
     themes:{
         light:{
@@ -39,12 +37,12 @@ export const Box=styled('div',{
 
         },
         dark:{
-            backgroundColor:'#969696',
+            backgroundColor:'#757475',
         }
     },
     width: {
         small: {
-            width: '90%',
+            width: '100%',
     
           },
           normal: {
@@ -67,10 +65,11 @@ export const Box=styled('div',{
 export const BoxControl=styled('div',{
     display: 'flex',
     width: '100%',
+    margin:'0 auto',
     alignItems:'center',
     flexDirection: 'row',
     flexWrap:'wrap',
-    padding:'10px' ,
+    padding:'10px 0' ,
     justifyContent:'space-between',
     borderBottom:'1px solid gray',
 

@@ -17,7 +17,7 @@ export const Header=styled('header',{
     justifyContent:'space-between',
     alignItems:'center',
     width:'100%',
-    padding:'5px 10px',
+    padding:'10px 10px',
 
     variants:{
         themes:{
@@ -58,11 +58,11 @@ export const Box=styled('div',{
     variants:{
     font: {
           small: {
-            fontSize:'20px',
+            fontSize:'22px',
           //   backgroundColor:'aqua',
           },
           normal: {
-            fontSize:'20px',
+            fontSize:'24px',
           //   backgroundColor:'blue',
   
   

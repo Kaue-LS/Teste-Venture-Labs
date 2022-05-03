@@ -89,6 +89,7 @@ export const Title=styled('h1',{
 
 export const AreaButton=styled('div',{
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent:'space-evenly',
     alignItems:'center',
 })
